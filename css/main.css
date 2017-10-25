@@ -36,6 +36,10 @@ figure{
   width: 30%;
 }
 
+.icon-search{
+  font-size: 16px;
+}
+
 .icons{
   position: absolute;
   right:7%;
@@ -128,18 +132,15 @@ section {
 
 .box{
   width: 830px;
-  margin:0;
+  margin:0 auto;
 }
 
-div{
- display: inline-block;
- width: 10%;
 
-}
 
-.box img{
+.box >img{
+  border-radius: 10px;
   display:inline-block;
   width: 200px;
   height: 250px;
-  border-radius: 10px;
+
 }
