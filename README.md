@@ -2,7 +2,7 @@
 
 ## replica de la pagina de "pinterest"
 
-![imagen de replica "pinterest"](https://aurorex.github.io/pinterest./)
+!(https://aurorex.github.io/pinterest./)!
 
 ##### Este proyecto se realizó con previo conocimiento de html y css.Las propiedades que utilice para lograr  la organización de elementos bloque  fueron **position**, **display**,**padding-left**,**padding-right**,etc.
 
