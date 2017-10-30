@@ -38,12 +38,3 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-user:before {
-  content: "\66";
-}
-.icon-three-bars:before {
-  content: "\62";
-}
-.icon-commenting:before {
-  content: "\63";
-}

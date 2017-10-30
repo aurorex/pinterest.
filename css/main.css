@@ -12,43 +12,56 @@ header{
   width: 100%;
   height: 25%;
   background-color: #fff;/*color blanco*/
+  
 }
 
 figure{
   display: inline-block;
-  margin: 0;
-  padding: 0;
+
+  width:12%;
+  height: 60px;
 }
 
 .logo{
   display: inline-block;
-  width:15% ;
-  height: 15%;
-  padding-left: 50%;
-  padding-right: 12%;
-  padding-top: 15px;
+  width:25%;
+  position: relative;
+  left: 95px;
+  top:10px;
 }
 
 .search{
-  display: inline;
+  display: inline-block;
   padding: 0;
-  margin:0;
-  width: 30%;
-
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #EFEFEF;
 }
 
 .search input {
-    background-color: rgba(23, 3, 17, 0.2);
-    height: 30px;
-    width: 300px;
-    border-radius: 12px;
+    background-color: transparent;
+    color: initial;
+    margin-left: 5px;
+    font-size: 17px;
+    line-height: 30px;
+    width: 83%;
+    outline: none;
+    border:none;
+    display: inline-block;
+}
+
+.search .container-iconos{
+  display: inline-block;
+  font-weight: bold;
 }
 
 
 .icons{
   position: absolute;
-  right:7%;
-  top:2%;
+  right:3%;
+  top:14%;
 }
 
 .navegation-bar{
@@ -56,10 +69,12 @@ figure{
   padding-right: 15%;
 }
 
-.icons li, .navegation-bar li {
+.icons li{
   display: inline-block;
   list-style: none;
 }
+
+
 
 
 .icons li{
@@ -70,9 +85,23 @@ figure{
 
 }
 
+
+nav{
+  margin-top:10px;
+  width: 100%;
+  margin-left:-5%;
+}
+
+.navegation-bar{
+  width: 80%;
+
+}
+
 .navegation-bar li{
+  list-style: none;
+  display: inline-block;
+  margin:2px;
   padding: 20px;
-  margin:5px;
   border-radius: 6px;
   text-align: center;
 }
